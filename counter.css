@@ -1,0 +1,46 @@
+body {
+  background-color: hsl(210, 36%, 96%);
+}
+#counterApp {
+  /* margin: auto;
+  width: auto; */
+  position: absolute;
+
+  top: 20%;
+  left: 40%;
+}
+.counter-text {
+  font-size: 60px;
+  text-align: center;
+}
+.operator {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.counter-no {
+  font-size: 60px;
+  text-align: center;
+}
+.button-decrease,
+.button-reset,
+.button-increase {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button-increase,
+.button-reset,
+.button-decrease {
+  background-color: hsl(210, 36%, 96%);
+  color: black;
+}
+.button-increase:hover,
+.button-decrease:hover,
+.button-reset:hover {
+  background-color: black;
+  color: white;
+}
